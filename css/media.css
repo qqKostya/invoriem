@@ -13,6 +13,28 @@
   .nav__list {
     column-gap: 60px;
   }
+
+  .slider {
+    width: 1300px;
+  }
+
+  .slide {
+    padding-left: 50px;
+  }
+
+  .slide__img {
+    width: 336px;
+    height: 396px;
+  }
+
+  .slide__title {
+    bottom: 32px;
+    font-size: 80px;
+  
+    background: linear-gradient(90deg, rgba(17,68,85,1) 50px, rgba(255,255,255,1) 50px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 /* Mobail */
@@ -61,5 +83,48 @@
     width: 19px;
     height: 16px;
     bottom: 32px;
+  }
+
+  .case-studies {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .case-studies__title {
+    margin-bottom: 7px;
+  }
+
+  .case-studies__text {
+    margin-bottom: 31px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .slide__img {
+    width: 224px;
+    height: 264px;
+  }
+
+  .slide {
+    padding-left: 33px;
+  }
+
+  .slide__title {
+    bottom: 22px;
+    font-size: 60px;
+  
+    background: linear-gradient(90deg, rgba(17,68,85,1) 33px, rgba(255,255,255,1) 33px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .slider {
+    width: 546px;
   }
 }
