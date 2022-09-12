@@ -36,7 +36,7 @@ const video = document.querySelector('#video-file');
 
 videoWrapper.addEventListener('click', function () {
   if (video.paused) {
-    videoPic.classList.add('none');
+    videoPic.classList.add('hidden');
     videoWrapper.classList.remove('video-overlay');
     videoBtn.classList.add('none');
     video.play();
