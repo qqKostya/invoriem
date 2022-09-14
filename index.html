@@ -32,7 +32,7 @@
             <li><a href="#!" class="btn">Let’s Talk</a></li>
           </ul>
 
-          <button class="nav__btn">
+          <button class="nav__btn" id="openMobileNav">
             <img src="./img/icons/mobail-nav-btn.svg" alt="mobile nav">
           </button>
 
@@ -173,6 +173,53 @@
         </div>
       </div>
   </footer>
+
+  <section class="mobile-nav none" id="mobileNav">
+    <div class="mobile-nav__header">
+      <a href="#!">
+        <img src="./img/icons/burger-logo.svg" alt="logo" class="mobile-nav__logo">
+      </a>
+      <button class="mobile-nav__btn" id="closeMobileNav">
+        <img src="./img/icons/mobail-nav-btn.svg" alt="close nav">
+      </button>
+    </div>
+    
+    <nav class="mobile-list">
+      <ul>
+        <li><a href="#!">Hello</a></li>
+        <li><a href="#!">Bonjour</a></li>
+        <li><a href="#!">Olá</a></li>
+        <li><a href="#!">Marhabaan</a></li>
+      </ul>
+    </nav>
+    
+    <div class="mobail-contacts">
+      <h4 class="mobail-contacts__title">Contact us</h4>
+      <a href="mailto:info@invoriem.com" class="mobail-contacts__email">info@invoriem.com</a>
+      <a href="tel:+55512345258" class="mobail-contacts__phone">+555 1234 52 58</a>
+      <address class="mobail-contacts__address">
+        3517 W. Gray St.<br> 
+        Utica, Pennsylvania<br>
+        57867</address>
+    </div>
+      
+    <footer class="mobile-footer">
+      
+      <a class="mobile-footer__email" href="mailto:info@invoriem.com">info@invoriem.com</a>
+      
+      <div class="mobile-socials">
+        <a href="#!"><img src="./img/icons/instagram.svg" alt="instagram"></a>
+        <a href="#!"><img src="./img/icons/facebook.svg" alt="facebook"></a>
+        <a href="#!"><img src="./img/icons/twitter.svg" alt="twitter"></a>
+        <a href="#!"><img src="./img/icons/linkedIn.svg" alt="linkedIn"></a>
+      </div>
+      
+      <p class="mobile-footer__copyright">Copyright © 2020 Invoriem</p>
+      
+    </footer>
+  </section>
+
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
     integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="

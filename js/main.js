@@ -46,3 +46,20 @@ videoWrapper.addEventListener('click', function () {
     video.pause();
   }
 })
+
+
+/* Mobile nav */
+
+const openNavBtn = document.querySelector('#openMobileNav');
+const mobileNav = document.querySelector('#mobileNav');
+const closeNavBtn = document.querySelector('#closeMobileNav');
+
+openNavBtn.onclick = function () {
+  mobileNav.classList.remove('none');
+  document.body.classList.add('no-scroll');
+}
+
+closeNavBtn.onclick = function () {
+  mobileNav.classList.add('none');
+  document.body.classList.remove('no-scroll');
+};
